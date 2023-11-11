@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Contact US Page</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- Box Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- Swiper CSS File Link (JQuery CSS) -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Hello. We are delighted that you have reached out to us.
+                 We will make every effort to provide you with feedback
+                  as soon as possible. Thank you, and we look forward to 
+                  connecting with you again. Best regards!</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon">
+                        <a href="https://www.google.co.th/maps/place/C%C3%B4ng+Vi%C3%AAn+Th%C3%A0nh+C%C3%B4ng/@10.8453433,106.7941187,19z/data=!4m15!1m8!3m7!1s0x31752715897ed85b:0x3fbb3729b8686364!2zNDUxIEzDqiBWxINuIFZp4buHdCwgVMSDbmcgTmjGoW4gUGjDuiBBLCBRdeG6rW4gOSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!3b1!8m2!3d10.8455633!4d106.79404!16s%2Fg%2F11fsjjhml9!3m5!1s0x3175276520ff2931:0xea26bee2d04d4014!8m2!3d10.845952!4d106.794061!16s%2Fg%2F11vf3ml8y3?hl=en&entry=ttu" target="_blank">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>450-451 Le Van Viet Street, 
+                            <br>Tang Nhon Phu A Ward,
+                            <br> District 9, Thu Duc City, 
+                            <br>Ho Chi Minh City</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>+84-348-102-328</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>phiduong.it.hcm@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" id="HoTen" required="required">
+                        <span>Full Name</span>
+                    </div>     
+                    <div class="inputBox">
+                        <input type="text" id="Email" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>               
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send" onclick="CheckThongTin()">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/contact.js"></script>
+    <!-- Link Swiper (Jquery JS)-->
+    <script src="js/swiper-bundle.min.js"></script>
+</body>
+</html>
